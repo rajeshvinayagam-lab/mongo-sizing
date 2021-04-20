@@ -66,6 +66,11 @@ button.list-group-item.list-group-item-action {
   margin: auto;
 }
 
+.tab-content {
+  height: calc(100vh - 120px);
+  overflow: auto;
+}
+
 .peerislands-logo {
   border-right: 1px solid #bbbb7f;
 }
@@ -79,4 +84,8 @@ td {
   .modal-dialog {
     max-width: 700px;
   }
+}
+
+.document-html {
+  white-space: break-spaces;
 }
